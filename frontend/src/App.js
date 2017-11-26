@@ -13,7 +13,6 @@ class App extends Component {
         <div>
           <Header />
           <div className='Wrapper'>
-            {/* TODO: must add some security control here */}
             <Switch>
               <Route path='/login' component={Login} />
               <Route path='/users/sign_up' component={SignUp} />

@@ -20,9 +20,8 @@ $> npm run build
 
 4º Levantar la WebApp en un servidor 
 ```
-$> npm i -g browser-sync
-$> cd frontend/build
-$> browser-sync start --server --files 'css/*.css'
+$> npm install -g serve
+$> serve -s build
 ```
 
 5º Levantar la WebApp para test

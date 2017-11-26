@@ -14,6 +14,7 @@ $> docker-compose up doc
 3º Contruir la WebApp
 ```
 $> cd frontend
+$> npm install
 $> npm run build
 ```
 

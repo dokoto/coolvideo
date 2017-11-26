@@ -8,7 +8,7 @@ $> git clone https://github.com/dokoto/coolvideo.git
 2º Levantar el docker
 ```
 $> cd backend
-$> docker-compose up doc
+$> docker-compose up server
 ```
 
 3º Contruir la WebApp

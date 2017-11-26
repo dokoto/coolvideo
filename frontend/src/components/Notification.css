@@ -1,0 +1,13 @@
+.notification {
+  position: fixed !important;
+  bottom: 0;
+  margin: 0;
+}
+
+.notification.visible {
+  display: initial;
+}
+
+.notification.hidden {
+  display: none;
+}

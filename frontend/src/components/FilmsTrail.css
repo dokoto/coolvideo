@@ -1,0 +1,11 @@
+.carruselTrack {
+  margin-bottom: 10%;
+}
+
+.carruselTrack.hidden {
+  display: none;
+}
+
+.carruselTrack.visible {
+  display: initial;
+}

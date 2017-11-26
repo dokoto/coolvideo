@@ -1,0 +1,38 @@
+.title {
+  color: white;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  margin: 5px;
+  background-color: black;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+.imageContainer {
+  margin-bottom: 10%;
+  position: relative;
+  border-radius: 10px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.actions {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}

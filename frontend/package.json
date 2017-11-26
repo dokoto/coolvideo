@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-items-carousel": "^2.2.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test-bdd": "node node_modules/cucumber/bin/cucumber.js --tags @mandatory test/bdd/features",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.33.2",
+    "cucumber": "^3.1.0",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "selenium-webdriver": "^3.6.0"
+  }
+}
